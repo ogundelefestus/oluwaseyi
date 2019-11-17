@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', true),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -77,7 +77,6 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
-    'log'=>'errorlog',
 
     'locale' => 'en',
 
@@ -105,7 +104,7 @@ return [
     |
     */
 
-    'key' => 'wuqlVAonbe6LrjIe+HQMNbBo3JhblebZrW1MjfHXBSU='
+    'key' => 'wuqlVAonbe6LrjIe+HQMNbBo3JhblebZrW1MjfHXBSU=',
 
     'cipher' => 'AES-256-CBC',
 
@@ -164,7 +163,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+      
 
         /*
          * Package Service Providers...
@@ -227,7 +226,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-      
+        
 
     ],
 
