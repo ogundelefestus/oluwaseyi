@@ -106,7 +106,7 @@ return [
 
     'key' => 'wuqlVAonbe6LrjIe+HQMNbBo3JhblebZrW1MjfHXBSU=',
 
-    'cipher' => 'AES-256-CBC',
+    'cipher' => 'AES-128-CBC',
 
     /*
     |--------------------------------------------------------------------------
