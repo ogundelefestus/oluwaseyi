@@ -104,9 +104,9 @@ return [
     |
     */
 
-    'key' => '4nayMA0Rj/3X7JyaXi6sXw==',
+    'key' => '+lc0dDhJs5bp4gsQOmKF+bmMZHuqZsClYWR3vLakuPg=',
 
-    'cipher' => 'AES-128-CBC',
+    'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
