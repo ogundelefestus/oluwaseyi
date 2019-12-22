@@ -11,7 +11,27 @@
 |
 */
 
+
+/**
+
+*Author:Fessy
+*Created: 12/17/2019
+
+**/
+
+
 Route::get('/',[
+'uses' => 'ProductController@getWelcome',
+'as' => 'product.welcome'
+
+]);
+
+Route::get('/shop',[
+'uses' => 'ProductController@getShop',
+'as' => 'product.shop'
+
+]);
+Route::get('/index',[
 'uses' => 'ProductController@getIndex',
 'as' => 'product.index'
 ]);
@@ -19,7 +39,7 @@ Route::get('/',[
 
 Route::get('/add-to-cart/{id}',[
 'uses'=>'ProductController@getAddToCart',
-'as'=>'product.addToCart',
+'as'=>'product.addToCart'
 
 
 ]);
@@ -115,3 +135,6 @@ Route::get('/logout',[
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('user.home');
+
+
+Route::get('/verify/{token}', 'VerifyController@verify')->name('verify');

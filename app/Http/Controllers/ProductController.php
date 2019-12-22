@@ -14,10 +14,16 @@ use Stripe\Stripe;
 
 class ProductController extends Controller
 {
+public function getWelcome(){
+
+  return view('shop.welcome');
+}
 
 
+public function getShop(){
 
-
+  return view('shop.shop');
+}
        public function getIndex()
     {
         $products = Product::all();

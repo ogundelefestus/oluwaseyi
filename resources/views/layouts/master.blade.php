@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+    
 <title>@yield('title')</title>
 
 <!-- Latest compiled and minified CSS -->
@@ -22,17 +22,17 @@
     <!-- Styles -->
    
 
-	@yield('style')
+    @yield('style')
 </head>
 <body>
 
-	@include('partials.header')
+    @include('partials.header')
 
 
-	<div class="container">
-		
-		
-	@yield('content')
+    <div class="container">
+        
+        
+    @yield('content')
 
 
 </div>
@@ -47,7 +47,7 @@
 
 <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/v4-shims.js"></script>
-	@yield('script')
+    @yield('script')
 
 
 </body>
